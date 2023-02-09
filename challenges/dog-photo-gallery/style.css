@@ -6,6 +6,7 @@ button {
   text-decoration: solid;
   font-size: 1.5em;
   width: max-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #container {
   display: flex;
@@ -18,10 +19,15 @@ li {
   display: flex;
   justify-content: center;
   padding: 0px;
-  margin: 10px 0px;
+  margin: 50px 0px;
   width: 80%;
   height: 100%;
+  background-color: rgba(181, 221, 164, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .randomImg {
   max-width: 50%;
+}
+body {
+  background-color: rgba(248, 247, 249, 0.5);
 }
